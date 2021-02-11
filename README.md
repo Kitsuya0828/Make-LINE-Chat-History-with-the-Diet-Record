@@ -4,7 +4,9 @@ This tool enables you to make a LINE like chat history with the Diet Record extr
 
 # DEMO
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+When you run "scraping.py"
+
+![scraping.py](./demo.gif)
 
 # Features
 
@@ -12,15 +14,15 @@ This tool enables you to make a LINE like chat history with the Diet Record extr
 
 # Requirement
 
-* chromedriver-binary==86.0.4240.22.0
-* selenium==3.141.0
+* Python 3.8.5
+* chromedriver-binary 86.0.4240.22.0
+* selenium 3.141.0
 
 # Installation
 
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
 ```bash
-pip install huga_package
+pip install chromedriver-binary
+pip install selenium
 ```
 
 # Usage
@@ -39,17 +41,13 @@ python demo.py
 
 # Author
 
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
+* Kitsuya Azuma
+* Tohoku University
+* kitsuyaazuma@gmail.com
 
 # License
-ライセンスを明示する
 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"Make-LINE-Chat-History-with-the-Diet-Record" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-社内向けなら社外秘であることを明示してる
 
-"hoge" is Confidential.
+Thank you!

@@ -37,7 +37,7 @@ By default, text files will be downloaded to the “Downloads” folder in your 
 Move all text files you downloaded to the "statements" folder directly under the "Make-LINE-Chat-History-with-the-Diet-Record" folder.
 
 ```bash
-python editing.py > chat_history.txt
+python editing.py > chat_log.txt
 ```
 
 # Note

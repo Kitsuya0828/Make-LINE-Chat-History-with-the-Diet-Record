@@ -10,7 +10,7 @@ When you run "scraping.py"
 
 # Features
 
-"hoge"のセールスポイントや差別化などを説明する
+With the LINE like chat history you made, you can use my web app [Grou Cha Darby](https://grouchadarby0210.herokuapp.com/) without exposing your personal information on the Internet.
 
 # Requirement
 
@@ -27,17 +27,24 @@ pip install selenium
 
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+```bash
+git clone https://github.com/Kitsuya0828/Make-LINE-Chat-History-with-the-Diet-Record.git
+cd Make-LINE-Chat-History-with-the-Diet-Record
+python scraping.py
+```
+By default, text files will be downloaded to the “Downloads” folder in your user account. 
+
+Move all text files you downloaded to the "statements" folder directly under the "Make-LINE-Chat-History-with-the-Diet-Record" folder.
 
 ```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+python editing.py > chat_history.txt
 ```
 
 # Note
 
-注意点などがあれば書く
+When your ChromeDriver is not compatible with the installed Chrome Browser, please update your ChromeDriver to the appropriate version.
+
+[Downloads - ChromeDriver - WebDriver for Chrome](https://chromedriver.chromium.org/downloads)
 
 # Author
 
